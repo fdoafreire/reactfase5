@@ -21,7 +21,7 @@ function App() {
 	    <h4>Edwin Garzon</h4>
 	    <h4>Fernando Freire Gomez</h4>
 	    <h6>Enlace proyecto</h6>
-	    <a href="/index.html">Ver proyecto</a>
+	    <a href="/inicio.html">Ver proyecto</a>
       </div>
     </>
   )
