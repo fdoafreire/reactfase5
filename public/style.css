@@ -1,0 +1,145 @@
+.contenedor {
+    display: grid;
+    grid-template-areas:
+        'A A A A'
+        'B B B B'
+        'C D D D'
+        'C D D D'
+        'E E E E';
+
+}
+
+header {
+    grid-area: A;
+    background: #7286D3;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+nav {
+    grid-area: B;
+    background-color: #8EA7E9;
+}
+
+aside {
+    grid-area: C;
+    background-color: #E5E0FF;
+}
+
+main {
+    grid-area: D;
+    background-color: #E5E0FF;
+    text-align: center;
+}
+
+
+
+h2 {
+
+    font-size: 40px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
+    background-color: #070707;
+}
+h2.subtitle {
+    background-color: unset;
+}
+
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #070707;
+}
+
+footer {
+    grid-area: E;
+    text-align: center;
+    background-color: bisque;
+}
+
+
+.Menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.Menu a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 50px;
+    margin: 15px;
+}
+
+.menuA {
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.menuA a {
+    display: block;
+    background-color: #7286D3;
+    color: white;
+    text-decoration: none;
+    padding: 15px 80px;
+    margin: 2px;
+}
+
+.parr {
+    font-size: 20px;
+}
+
+.Audio {
+    text-align: center;
+}
+
+.imagen-redondeada {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.noso {
+    display: grid;
+    grid-template-areas:
+        'T T T T'
+        'J J S S'
+        'J J S S'
+        'N N M M'
+        'N N M M';
+}
+
+.izquierda {
+    grid-area: J;
+}
+
+.derecha {
+    grid-area: S;
+}
+.s-izquierda {
+    grid-area: N;
+}
+.s-derecha {
+    grid-area: M;
+}
+
+
+.titulo {
+    grid-area: T;
+}
+.cuestionario {
+    padding:3em;
+}

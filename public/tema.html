@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contenedor">
+    <header>
+        <h1>Flexbox</h1>
+    </header>
+    <nav>
+        <!-- <h2>Barra de navegacion </h2> -->
+        <ul class="Menu">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="audio.html">Audio</a></li>
+            <li><a href="tema.html">Tema</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <ul class="menuA">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="audio.html">Audio del tema</a></li>
+            <li><a href="tema.html">Tema</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+        </ul>
+    </aside>
+    <main>
+        <section>
+            <hr>
+            <h2><br>Los dos ejes de flexbox</h2>
+            <h3><br>El eje principal</h3>
+            <p><br>El eje principal está definido por flex-direction,
+                que posee cuatro posibles valores:
+            </p>
+            <ul>
+                <li>row </li>
+                <li>row-reverse</li>
+                <li>column</li>
+                <li>column-reverse</li>
+            </ul>
+            <p><br>Si elegimos row o row-reverse, el eje principal correrá a
+                lo largo de la fila según la dirección de la línea .<br>
+                Si elegimos row o row-reverse, el eje principal correrá a lo
+                largo de la fila según la dirección de la línea .<br>
+                Al elegir column o column-reverse el eje principal correrá desde
+                el borde superior de la página hasta el final — según la dirección
+                del bloque.</p>
+            <img src="imagen/dos.png" alt="principal">
+
+            <h3>El eje cruzado</h3>
+            <p><br>El eje cruzado va perpendicular al eje principal, y por lo
+                tanto si flex-direction (del eje principal) es row o
+                row-reverse el eje cruzado irá por las columnas.<br>
+                Si el eje principal es column o column-reverse entonces
+                el eje cruzado corre a lo largo de las filas.<br>
+                Entender cuál eje es cuál es importante cuando empezamos
+                a mirar la alineación y justificación flexible de los
+                ítems; flexbox posee propiedades que permiten alinear
+                y justificar el contenido sobre un eje o el otro.</p>
+
+            <img src="imagen/cuatro.png" alt="cruzado">
+        </section>
+    </main>
+    <footer>
+        <br>
+        <p>Esta pagina fue desarrollada por Javier Gomez </p>
+        <p> 8/7/2023</p>
+        <br>
+    </footer>
+</body>
+
+</html>

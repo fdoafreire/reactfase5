@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+	  crossorigin="anonymous"></script>
+
+</head>
+
+<body class="contenedor">
+    <script>let subtitle= "Selector CSS"</script>
+    <script src="/header.js"></script>
+    <div>
+        <h1 id="resultado">Responda las siguientes preguntas</h1>
+
+        <form name="formulario">
+            <h3>1. ¿Cuál de los siguientes selectores CSS seleccionará todos los elementos de párrafo (p) en un documento HTML?</h3>
+
+            <input type="Radio" name="r1" value="a"> a. p { } <br>
+            <input type="Radio" name="r1" value="b"> b. .p { } <br>
+            <input type="Radio" name="r1" value="c"> c. #p { } <br>
+            
+            <h3>2. ¿Cuál de las siguientes opciones selecciona un elemento con el atributo "href" igual a "https://www.ejemplo.com" utilizando CSS?</h3>
+
+            <input type="Radio" name="r2" value="a"> a. [href = "https://www.ejemplo.com"] { } <br>
+            <input type="Radio" name="r2" value="b"> b. a href="https://www.ejemplo.com" { }<br>
+            <input type="Radio" name="r2" value="c"> c. a[href="https://www.ejemplo.com"] { } <br>
+            
+            <h3>3. ¿Cuál de las siguientes opciones seleccionará todos los elementos con la clase "boton" en un documento HTML?</h3>
+
+            <input type="Radio" name="r3" value="a"> a. boton { }<br>
+            <input type="Radio" name="r3" value="b"> b. .boton { }<br>
+            <input type="Radio" name="r3" value="c"> c. button { }<br>
+            
+            <h3>4. ¿Cuál de las siguientes opciones selecciona todos los elementos a que se encuentran dentro de un elemento div?</h3>
+
+            <input type="Radio" name="r4" value="a"> a. div a { } <br>
+            <input type="Radio" name="r4" value="b"> b. a > div { }<br>
+            <input type="Radio" name="r4" value="c"> c. a > div { }<br>
+
+            <h3>5. ¿Cuál de las siguientes opciones selecciona el primer elemento li dentro de una lista desordenada (ul)?</h3>
+
+            <input type="Radio" name="r5" value="a"> a. ul li:first-child { } <br>
+            <input type="Radio" name="r5" value="b"> b. ul li:first-of-type { }<br>
+            <input type="Radio" name="r5" value="c"> c. ul:first-child li { }<br>
+            
+           <input type="button" value="Enviar" onclick="procesarRespuestas()"> 
+        </form>
+
+    </div>
+<script src="js/script.js"> </script>
+<script src="/footer.js"> </script>
+</body>
+</html>
